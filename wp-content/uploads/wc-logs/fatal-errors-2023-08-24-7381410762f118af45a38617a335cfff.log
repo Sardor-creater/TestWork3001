@@ -1,0 +1,79 @@
+2023-08-24T09:18:50+00:00 CRITICAL Uncaught TypeError: mime_content_type(): Argument #1 ($filename) must be of type resource|string, null given in /var/www/html/wp-content/themes/testwork/functions.php:38
+Stack trace:
+#0 /var/www/html/wp-content/themes/testwork/functions.php(38): mime_content_type(NULL)
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): art_woo_add_custom_fields('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-general.php(206): do_action('woocommerce_pro...')
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(42): include('/var/www/html/w...')
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-panel.php(52): WC_Meta_Box_Product_Data::output_tabs()
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(33): include('/var/www/html/w...')
+#8 /var/www/html/wp-admin/includes/template.php(1443): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#9 /var/www/html/wp-admin/edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#10 /var/www/html/wp-admin/post.php(206): require('/var/www/html/w...')
+#11 {main}
+  thrown в /var/www/html/wp-content/themes/testwork/functions.php на строке 38
+
+2023-08-24T09:26:08+00:00 CRITICAL Uncaught TypeError: mime_content_type(): Argument #1 ($filename) must be of type resource|string, null given in /var/www/html/wp-content/themes/testwork/functions.php:38
+Stack trace:
+#0 /var/www/html/wp-content/themes/testwork/functions.php(38): mime_content_type(NULL)
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): art_woo_add_custom_fields('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-general.php(206): do_action('woocommerce_pro...')
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(42): include('/var/www/html/w...')
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-panel.php(52): WC_Meta_Box_Product_Data::output_tabs()
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(33): include('/var/www/html/w...')
+#8 /var/www/html/wp-admin/includes/template.php(1443): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#9 /var/www/html/wp-admin/edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#10 /var/www/html/wp-admin/post.php(206): require('/var/www/html/w...')
+#11 {main}
+  thrown в /var/www/html/wp-content/themes/testwork/functions.php на строке 38
+
+2023-08-24T09:26:19+00:00 CRITICAL Uncaught TypeError: mime_content_type(): Argument #1 ($filename) must be of type resource|string, null given in /var/www/html/wp-content/themes/testwork/functions.php:38
+Stack trace:
+#0 /var/www/html/wp-content/themes/testwork/functions.php(38): mime_content_type(NULL)
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): art_woo_add_custom_fields('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-general.php(206): do_action('woocommerce_pro...')
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(42): include('/var/www/html/w...')
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-panel.php(52): WC_Meta_Box_Product_Data::output_tabs()
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(33): include('/var/www/html/w...')
+#8 /var/www/html/wp-admin/includes/template.php(1443): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#9 /var/www/html/wp-admin/edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#10 /var/www/html/wp-admin/post.php(206): require('/var/www/html/w...')
+#11 {main}
+  thrown в /var/www/html/wp-content/themes/testwork/functions.php на строке 38
+
+2023-08-24T09:26:47+00:00 CRITICAL Uncaught TypeError: mime_content_type(): Argument #1 ($filename) must be of type resource|string, null given in /var/www/html/wp-content/themes/testwork/functions.php:38
+Stack trace:
+#0 /var/www/html/wp-content/themes/testwork/functions.php(38): mime_content_type(NULL)
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): art_woo_add_custom_fields('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-general.php(206): do_action('woocommerce_pro...')
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(42): include('/var/www/html/w...')
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-panel.php(52): WC_Meta_Box_Product_Data::output_tabs()
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(33): include('/var/www/html/w...')
+#8 /var/www/html/wp-admin/includes/template.php(1443): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#9 /var/www/html/wp-admin/edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#10 /var/www/html/wp-admin/post.php(206): require('/var/www/html/w...')
+#11 {main}
+  thrown в /var/www/html/wp-content/themes/testwork/functions.php на строке 38
+
+2023-08-24T09:32:46+00:00 CRITICAL Uncaught Error: Undefined constant "misha_uploader" in /var/www/html/wp-content/themes/testwork/functions.php:26
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): art_woo_add_custom_fields('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(42): include('/var/www/html/w...')
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-panel.php(52): WC_Meta_Box_Product_Data::output_tabs()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(33): include('/var/www/html/w...')
+#7 /var/www/html/wp-admin/includes/template.php(1443): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 /var/www/html/wp-admin/edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 /var/www/html/wp-admin/post.php(206): require('/var/www/html/w...')
+#10 {main}
+  thrown в /var/www/html/wp-content/themes/testwork/functions.php на строке 26
+

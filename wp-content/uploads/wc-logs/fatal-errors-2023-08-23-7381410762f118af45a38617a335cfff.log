@@ -1,0 +1,55 @@
+2023-08-23T15:07:13+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "image_uploader_callback" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1443
+Stack trace:
+#0 /var/www/html/wp-admin/edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/post-new.php(75): require('/var/www/html/w...')
+#2 {main}
+  thrown в /var/www/html/wp-admin/includes/template.php на строке 1443
+
+2023-08-23T15:07:15+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "image_uploader_callback" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1443
+Stack trace:
+#0 /var/www/html/wp-admin/edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/post-new.php(75): require('/var/www/html/w...')
+#2 {main}
+  thrown в /var/www/html/wp-admin/includes/template.php на строке 1443
+
+2023-08-23T15:07:19+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "image_uploader_callback" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1443
+Stack trace:
+#0 /var/www/html/wp-admin/edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/post.php(206): require('/var/www/html/w...')
+#2 {main}
+  thrown в /var/www/html/wp-admin/includes/template.php на строке 1443
+
+2023-08-23T15:07:19+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "image_uploader_callback" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1443
+Stack trace:
+#0 /var/www/html/wp-admin/edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/post.php(206): require('/var/www/html/w...')
+#2 {main}
+  thrown в /var/www/html/wp-admin/includes/template.php на строке 1443
+
+2023-08-23T15:07:21+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "image_uploader_callback" not found or invalid function name in /var/www/html/wp-admin/includes/template.php:1443
+Stack trace:
+#0 /var/www/html/wp-admin/edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#1 /var/www/html/wp-admin/post.php(206): require('/var/www/html/w...')
+#2 {main}
+  thrown в /var/www/html/wp-admin/includes/template.php на строке 1443
+
+2023-08-23T18:27:16+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "image_metabox" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:312
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/includes/meta-boxes.php(1715): do_action('add_meta_boxes', 'product', Object(WP_Post))
+#3 /var/www/html/wp-admin/edit-form-advanced.php(271): register_and_do_post_meta_boxes(Object(WP_Post))
+#4 /var/www/html/wp-admin/post.php(206): require('/var/www/html/w...')
+#5 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 312
+
+2023-08-23T18:27:18+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "image_metabox" not found or invalid function name in /var/www/html/wp-includes/class-wp-hook.php:312
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /var/www/html/wp-admin/includes/meta-boxes.php(1715): do_action('add_meta_boxes', 'product', Object(WP_Post))
+#3 /var/www/html/wp-admin/edit-form-advanced.php(271): register_and_do_post_meta_boxes(Object(WP_Post))
+#4 /var/www/html/wp-admin/post.php(206): require('/var/www/html/w...')
+#5 {main}
+  thrown в /var/www/html/wp-includes/class-wp-hook.php на строке 312
+
