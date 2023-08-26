@@ -84,7 +84,7 @@ function woo_add_custom_fields() {
             });
         });
     </script>
-        <?php
+    <?php
 
     echo '</div>';
 
@@ -92,6 +92,7 @@ function woo_add_custom_fields() {
 
 
 //save
+add_action( 'woocommerce_process_product_meta', 'woo_custom_fields_save', 10);
 function woo_custom_fields_save( $post_id ) {
 
 //    $woocommerce_text_field = $_POST['custom_date_field'];
@@ -118,11 +119,9 @@ function woo_custom_fields_save( $post_id ) {
 
     $product->save();
 }
-add_action( 'woocommerce_process_product_meta', 'woo_custom_fields_save', 10);
 
 
 //add metabox set img and rm
-
 add_action( 'add_meta_boxes', 'listing_image_add_metabox' );
 function listing_image_add_metabox () {
     add_meta_box( 'listingimagediv', __( 'Custom Image', 'text-domain' ), 'listing_image_metabox', 'product', 'side', 'low');
@@ -167,5 +166,24 @@ function listing_image_save ( $post_id ) {
     if( isset( $_POST['_listing_cover_image'] ) ) {
         $image_id = (int) $_POST['_listing_cover_image'];
         update_post_meta( $post_id, '_listing_image_id', $image_id );
+    }
+}
+//admin edit page
+add_action( 'manage_product_posts_custom_column', 'action_manage_product_posts_custom_column', 20, 2 );
+function action_manage_product_posts_custom_column($column) {
+    if ($column == 'thumb'){
+
+        global $post;
+        $product = wc_get_product($post->ID);
+        $custom_fields_woocommerce_title = $product->get_meta('_listing_image_id');
+        $attachment_element = wp_get_attachment_image( $custom_fields_woocommerce_title );
+        echo '<a href="'. esc_url(get_edit_post_link($post->ID)) .'">';
+        echo $attachment_element?$attachment_element:wc_placeholder_img();
+        echo "</a>";
+        ?>
+        <script>
+            jQuery('td.thumb a:first-child').hide();
+        </script>
+        <?php
     }
 }
