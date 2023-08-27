@@ -187,3 +187,5 @@ function action_manage_product_posts_custom_column($column) {
         <?php
     }
 }
+
+// fromtend add product page

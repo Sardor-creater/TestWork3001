@@ -187,7 +187,8 @@ class WC_Breadcrumb {
 	protected function add_crumbs_page() {
 		global $post;
 
-		if ( $post->post_parent ) {
+//        sorry I didn't find another solution
+		if ( isset($post->post_parent)) {
 			$parent_crumbs = array();
 			$parent_id     = $post->post_parent;
 
